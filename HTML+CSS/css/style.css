@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+  font-family: roboto-regular;
+  src: url('/Fonts/3966.ttf');  
+}
+
+.menu {
+    
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+.header__name {
+    font-weight: 700;
+    font-family: roboto-regular;
+}
+
+.header__name:hover {
+    transition: all ease-in 0.2s;
+    color: red;
+}
+
+.header__descr {
+    text-align: center;
+  
+}
+
+.header__text {
+    color: red;
+}
+
+.table1 {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    td,
+    th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
