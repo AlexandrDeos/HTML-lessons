@@ -9,6 +9,7 @@ body {
     padding: 0;
     width: 100%;
     max-width: 1200px;
+
 }
 
 h1 {
@@ -29,6 +30,7 @@ margin-left: 33%;
     width: 400px;
     text-align: center;
 }
+
 
 h2 {
     
@@ -92,7 +94,12 @@ margin-bottom: 20px;
   font-size: 14px;
 }
 
-.section__table:hover {
+/* .section__table:hover {
  transition: ease-in 0.2s;
 color: white;
+} */
+
+.word:hover {
+    transition: ease-in 0.2s;
+    color: red;
 }
