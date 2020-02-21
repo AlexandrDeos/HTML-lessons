@@ -16,7 +16,7 @@ h1 {
 }
 
 .header__name {
-margin-left: 42%;
+margin-left: 33%;
 }
 
 .tittle1 {
@@ -26,7 +26,7 @@ margin-left: 42%;
     text-transform: uppercase;
     border: 2px solid white;
     border-radius: 5px;
-    width: 200px;
+    width: 400px;
     text-align: center;
 }
 
@@ -62,10 +62,6 @@ margin-bottom: 20px;
     color: rgb(255, 255, 255);
 }
 
-.section__table {
-    display: flex;
-    justify-content: space-between;
-}
 
 .section__title {
     text-align: center;
@@ -77,8 +73,15 @@ margin-bottom: 20px;
 
 .section__descr {
     display: flex;
-    justify-content: space-between
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
+
+.section__table {
+ width: 40%;
+ height: 40%;
+}
+
 
 .section__table-img {
  margin-right: 30px;
@@ -87,11 +90,6 @@ margin-bottom: 20px;
 
 .section__table-descr {
   font-size: 14px;
-}
-
-
-.section__table {
-    width: 45%;
 }
 
 .section__table:hover {
