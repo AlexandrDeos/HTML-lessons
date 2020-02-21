@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Krona One', 'Titillium Web', 'Inconsolata', monospace, sans-serif;
+    background: url('https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg') center no-repeat;
+}
+.container {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    max-width: 1200px;
+}
+
+h1 {
+    
+}
+
+.header__name {
+margin-left: 42%;
+}
+
+.tittle1 {
+    color: rgba(255, 255, 255, 0.712);
+    font-family: 'Krona One';
+    font-size: 50px;
+    text-transform: uppercase;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+}
+
+h2 {
+    
+}
+
+.section__title {
+   padding-top: 40px;
+   padding-bottom: 60px;
+}
+
+.title2 {
+    color: rgba(255, 255, 255, 0.712);
+    text-transform: uppercase;
+}
+
+.menu {
+display: flex;
+justify-content: space-between;
+width: 60%;
+margin-left: 20%;
+margin-bottom: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000;
+}
+
+.menu a:hover {
+    transition: ease-in 0.2s;
+    color: rgb(255, 255, 255);
+}
+
+.section__table {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section__title {
+    text-align: center;
+}
+
+.line {
+
+}
+
+.section__descr {
+    display: flex;
+    justify-content: space-between
+}
+
+.section__table-img {
+ margin-right: 30px;
+ margin-top: 20px;
+}
+
+.section__table-descr {
+  font-size: 14px;
+}
+
+
+.section__table {
+    width: 45%;
+}
+
+.section__table:hover {
+ transition: ease-in 0.2s;
+color: white;
+}
