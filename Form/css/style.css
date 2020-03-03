@@ -1,6 +1,6 @@
 
 h1  {
-    margin-left: 20px;
+ margin-left: 20px;
 }
 
 form {
@@ -8,7 +8,9 @@ form {
 }
 
 .header {
+    margin-left: 33%;
     border: 2px solid black;
     width: 450px;
     border-radius: 40px;
+    background: url('../img/photo-1523821741446-edb2b68bb7a0.jfif') center no-repeat;
 }

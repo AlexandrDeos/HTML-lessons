@@ -16,6 +16,15 @@ h1 {
     
 }
 
+.logo  {
+    scale: 200px;
+}
+
+.header__form {
+    width: 200px;
+}
+
+
 .header__name {
 margin-left: 33%;
 }
@@ -30,6 +39,8 @@ margin-left: 33%;
     width: 400px;
     text-align: center;
 }
+
+
 
 
 h2 {
