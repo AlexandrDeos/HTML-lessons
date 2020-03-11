@@ -17,16 +17,28 @@ h1 {
 }
 
 .logo  {
-    scale: 200px;
+ width: 100px;
+ border-radius: 20%;;
+ 
+}
+
+.header__img {
+    padding-top: 35px;
 }
 
 .header__form {
     width: 200px;
+    padding-top: 35px;
 }
 
+.header__wrapper {
+    display: flex;
+    justify-content: space-around;
+
+}
 
 .header__name {
-margin-left: 33%;
+margin-left: 20px;
 }
 
 .tittle1 {
@@ -95,6 +107,11 @@ margin-bottom: 20px;
  height: 40%;
 }
 
+.section__table:hover {
+    transform: translate3d(-10px, -10px, 0);
+    transition: ease-in 0.2s;
+}
+
 
 .section__table-img {
  margin-right: 30px;
@@ -103,6 +120,12 @@ margin-bottom: 20px;
 
 .section__table-descr {
   font-size: 14px;
+}
+
+.section__table-descr a {
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
 }
 
 /* .section__table:hover {
