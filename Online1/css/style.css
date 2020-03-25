@@ -1,0 +1,114 @@
+.header {
+text-align: center;
+}
+
+.header__logo {
+
+}
+
+
+.header__slogan {
+    
+    margin-left: 100px;
+}
+
+.slogan {
+  margin: 0;
+  color: #93C2ED;
+  font-weight: normal;
+}
+
+.clogo {
+    text-transform: uppercase;
+    font-family: 'Waiting for the Sunrise', cursive;
+    color: #93C2ED;
+    font-size: 60px;
+    margin: 0;
+    font-weight: 300;
+}
+
+.line {
+width: 200px;
+border: 1px solid #93C2ED;
+margin-top: 40px;
+margin-bottom: 30px;
+}
+
+.linedegree {
+    width: 200px;
+    border: 1px solid #93C2ED;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    transform: skew(0, -5deg)
+    
+}
+
+.section {
+text-align: center;
+}
+
+.section__description {
+margin: 0 auto;
+width: 80%;
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+
+color: #716868;
+}
+
+.descr {
+
+}
+
+.footer {
+ display: flex;
+ justify-content: center;
+}
+
+.footer__button {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    border: 1px solid blue;
+    background: #93C2ED;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+   
+    
+}
+
+.button__link {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin-left: 25px;
+   
+    
+}
+
+@media screen and (min-width: 600px) {
+
+    body {
+        text-align: center;
+    }
+
+    .clogo {
+        font-size: 100px;
+    }
+
+    .linedegree {
+        display: none;
+    }
+
+        .header__slogan {
+        margin: 0 auto;
+        }
+
+
+    .descr {
+        font-size: 30px;
+    }
+}
